@@ -32,21 +32,125 @@ const AgriInput = () => {
       <Card style={{ height: "90vh", padding: "10px" }}>
         <div>
           <Row className="container">
-            <Col sm={3}>
-              {" "}
-              <Card style={{ textAlign: "center" }}> Pending</Card>
+            <Col
+              sm={2}
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+                backgroundColor: "black",
+                color: "white",
+                padding: "20px",
+                margin: "5px",
+              }}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  width: "50px",
+                  height: "50px",
+                  backgroundColor: "red",
+                  borderRadius: "100%",
+                  fontSize: "20px",
+                }}
+              >
+                <b>1</b>
+              </div>
+              Pending
+              {/* <Card style={{ textAlign: "center" }}> </Card> */}
             </Col>
-            <Col sm={3}>
-              {" "}
-              <Card style={{ textAlign: "center" }}> Executing</Card>
+            <Col
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+                backgroundColor: "black",
+                color: "white",
+                padding: "20px",
+                margin: "5px",
+              }}
+              sm={2}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  width: "50px",
+                  height: "50px",
+                  backgroundColor: "yellow",
+                  borderRadius: "100%",
+                  fontSize: "20px",
+                }}
+              >
+                <b>2</b>
+              </div>
+              Executing
+              {/* <Card style={{ textAlign: "center" }}> </Card> */}
             </Col>
-            <Col sm={3}>
-              {" "}
-              <Card style={{ textAlign: "center" }}> Executed </Card>
+            <Col
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+                backgroundColor: "black",
+                color: "white",
+                padding: "20px",
+                margin: "5px",
+              }}
+              sm={2}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  width: "50px",
+                  height: "50px",
+                  backgroundColor: "orange",
+                  borderRadius: "100%",
+                  fontSize: "20px",
+                }}
+              >
+                <b>3</b>
+              </div>
+              Executed
+              {/* <Card style={{ textAlign: "center" }}>  </Card> */}
             </Col>
-            <Col sm={3}>
-              {" "}
-              <Card style={{ textAlign: "center" }}> Completed</Card>
+            <Col
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+                backgroundColor: "black",
+                color: "white",
+                padding: "20px",
+                margin: "5px",
+              }}
+              sm={2}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  width: "50px",
+                  height: "50px",
+                  backgroundColor: "green",
+                  borderRadius: "100%",
+                  fontSize: "20px",
+                }}
+              >
+                <b>4</b>
+              </div>
+              Completed
+              {/* <Card style={{ textAlign: "center" }}> </Card> */}
             </Col>
           </Row>
         </div>
